@@ -1,0 +1,93 @@
+body{
+  background-color: #333;
+
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+.message {
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+  
+}
+
+.waveForm{
+  background-color: rgb(41, 39, 39);
+  box-shadow: 3px 3px 15px 0px #8b8a8a;
+  margin-top: 16px;
+  padding: 8px; 
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+.waveFormMessage{
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+  
+  width: 90%;
+
+}
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+  width: 95%;
+  
+}
+.waveButton:hover{
+  opacity: 0.9;
+}
+
+.wavesMessages{
+  background-color: black;
+  color: white;
+
+}
+
+.connectButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+  box-shadow: 3px 3px 15px 0px #8b8a8a;
+}
